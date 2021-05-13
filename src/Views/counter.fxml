@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Rectangle?>
+
+<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="400.0" prefWidth="160.0" spacing="30.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.CounterController">
+   <children>
+      <Group>
+         <children>
+            <Rectangle fx:id="a" arcHeight="5.0" arcWidth="5.0" fill="LIGHTGRAY" height="150.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="15.0" />
+            <Rectangle fx:id="e" arcHeight="5.0" arcWidth="5.0" fill="LIGHTGRAY" height="150.0" layoutY="178.0" stroke="BLACK" strokeType="INSIDE" width="15.0" />
+            <Rectangle fx:id="c" arcHeight="5.0" arcWidth="5.0" fill="LIGHTGRAY" height="150.0" layoutX="105.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="15.0" />
+            <Rectangle fx:id="g" arcHeight="5.0" arcWidth="5.0" fill="LIGHTGRAY" height="150.0" layoutX="105.0" layoutY="178.0" stroke="BLACK" strokeType="INSIDE" width="15.0" />
+            <Rectangle fx:id="b" arcHeight="5.0" arcWidth="5.0" fill="LIGHTGRAY" height="90.0" layoutX="53.0" layoutY="-38.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" width="15.0" />
+            <Rectangle fx:id="d" arcHeight="5.0" arcWidth="5.0" fill="LIGHTGRAY" height="90.0" layoutX="53.0" layoutY="126.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" width="15.0" />
+            <Rectangle fx:id="f" arcHeight="5.0" arcWidth="5.0" fill="LIGHTGRAY" height="90.0" layoutX="53.0" layoutY="292.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" width="15.0" />
+         </children>
+      </Group>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</HBox>

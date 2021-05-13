@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+
+
+<HBox maxHeight="-Infinity"
+fx:id="root"
+fx:controller="Controllers.ClockController"
+maxWidth="-Infinity" minHeight="-Infinity"
+minWidth="-Infinity" prefHeight="444.0"
+prefWidth="994.0" xmlns="http://javafx.com/javafx/16"
+xmlns:fx="http://javafx.com/fxml/1" />
